@@ -1,12 +1,27 @@
+*, *::before, *::after
+    margin: 0
+    padding: 0
+
 body
+    font-size: 18px
+    line-height: 1.7em
     background: $violet
-    // display: flex
-    // flex-direction: column
+    display: flex
+    flex-direction: column
+    padding: 3em 1em
+    margin: auto
+    max-height: 100vh
+    height: 100vh
     min-width: 375px
     max-width: 1440px
     color: white
     @include font($family-open, $font-normal)
-    padding: 4em
+    // margin: auto
 
 h1
+    line-height: 1.5em
+    font-size: 2.2em
     @include font($family-poppins, $font-bold)
+
+footer
+    margin: .72em 9em
