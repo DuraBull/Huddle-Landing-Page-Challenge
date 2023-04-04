@@ -194,7 +194,9 @@ body {
   line-height: 1.7em;
   background: hsl(257, 40%, 49%);
   background-image: url("../images/bg-desktop.svg");
-  background-size: 100%;
+  background-repeat: no-repeat;
+  background-positon: top;
+  background-size: cover;
   display: flex;
   justify-content: center;
   flex-direction: column;
